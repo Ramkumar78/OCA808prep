@@ -2,24 +2,33 @@ package GeneralPrograms;
 
 public class MyDate {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-	public int day;
-	public int month;
-	public int year;
-	public MyDate(int date, int month, int year){
-		
-	}
+	
+	 int day=1;
+	 int month=1;
+	 int year=2000;
+	
 	public MyDate(){}
-	public void setDate1(int i, int j, int k) {
-		// TODO Auto-generated method stub
+	
+	public MyDate(int m, int d, int y) {
+		setDate(m,d,y);
 		
 	}
-	public void setDate(int i, int j, int k) {
-		// TODO Auto-generated method stub
+
+	public String toString(){
+		
+		return month +"/" + day +"/"+year;
 		
 	}
+
+	public void setDate(int m, int d, int y) {
+		// TODO Auto-generated method stub
+		day=d;
+		month=m;
+		year=y;
+	}
+	
+
+	
+	
 
 }

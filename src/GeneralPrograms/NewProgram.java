@@ -17,7 +17,23 @@ public class NewProgram {
 		
 		BigInteger BI;
 		
+		int a=7;
+		if (a> 9){
+			System.out.println("a greater than 9");
+		}
 		
+		
+		else if(a >10)
+		{ 
+			System.out.println("a greater than 10");
+
+		}
+		
+		else
+		{
+			System.out.println("why headache");
+			
+		}
 	}
 
 }

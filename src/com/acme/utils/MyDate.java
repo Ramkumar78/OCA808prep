@@ -1,11 +1,11 @@
-package GeneralPrograms;
+package com.acme.utils;
 
 public class MyDate {
 
 	
-	 int day=1;
-	 int month=1;
-	 int year=2000;
+public	 int day=1;
+	 public int month=1;
+	 public int year=2000;
 	
 	public MyDate(){}
 	

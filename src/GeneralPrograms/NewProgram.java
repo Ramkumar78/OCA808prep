@@ -1,5 +1,7 @@
 package GeneralPrograms;
 
+import java.math.BigInteger;
+
 public class NewProgram {
 
 	public static void main(String[] args) {
@@ -12,6 +14,8 @@ public class NewProgram {
 		int d= (int)c;
 		
 		System.out.println(d);
+		
+		BigInteger BI;
 		
 		
 	}

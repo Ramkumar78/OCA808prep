@@ -1,32 +1,48 @@
 package GeneralPrograms;
+/*  Car which is able to print description
+ * Author Ramkumar
+ * 
+ * 
+ * */
+import java.beans.Customizer;
 
 public class Car {
 
-	static String colour;
-	static String Type;
-	
-	void start(){
-		System.out.println("Get started");
+
+	String colour;
+	String type;
+	{
+		colour = "red";
+		type = "celica";
 	}
-	
-	static void printDescription(){
+
+	String getDescription() {
+
+		String desc = "This is a " + colour + " " + type;
+		return desc;
+
+	}
+//Customise Frame: newColour=blue newType Convertible;
+	/* colour and type*/
+	void customize(String type, String colour) {
+
+		this.colour = colour;
 		
-		System.out.println("This is a" +colour+Type);
+		
+		this.type=type;
+		type= "convertible";
+this.type = type+""+this.type;
+		System.out.println(getDescription());
+
 	}
-	
 	
 	public static void main(String[] args) {
 		
-		System.out.println(""+colour+Type);
+		Car c1=new Car();
+//		String t1="ford";
+//		String col1="Silver";
+		c1.customize("Silver","ford");
 		
-		printDescription();
-		
-	} 
-
-	Car(String c, String t
-			){
-		colour=c;
-		Type=t;
-	
 	}
+
 }

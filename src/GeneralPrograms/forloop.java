@@ -2,6 +2,9 @@ package GeneralPrograms;
 
 public class forloop {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -13,5 +16,11 @@ public class forloop {
 		
 //System.out.println(y);
 	}System.out.println(s);
+	
+	int z=4;
+	
+	--z;
+	System.out.println("value of z is"+z);
+	
 	}
 }

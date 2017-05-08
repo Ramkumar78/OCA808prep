@@ -10,7 +10,7 @@ public class SwitchCase {
 
 		// Readable a = null;
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter 1 to add number to itself \n 2 for sub \n 3 for divsion \n 4 for multiplication \n 5 for sqrt \6 for n power ");
+		System.out.println("Enter 1 to add number to itself \n 2 for sub \n 3 for divsion \n 4 for multiplication \n 5 for sqrt \n 6 for n power ");
 		int c = in.nextInt();
 		
 		System.out.println("enter value of number");

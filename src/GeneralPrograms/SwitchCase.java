@@ -24,8 +24,8 @@ public class SwitchCase {
 		case 1:
 			// int c=1;
 
-			System.out.println("result of a+a is " + 2 * a);
-			break;
+			System.out.println("result of a+a is " + a * a);
+			
 
 		case 2:
 

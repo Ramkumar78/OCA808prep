@@ -1,32 +1,33 @@
 package GeneralPrograms;
 
-import java.io.Console;
-import java.util.Scanner;
+import java.util.*;
 
 public class fibonocciseries {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner in = new Scanner(System.in);
-	     System.out.println("Enter an integer");
-	     int a = in.nextInt();
-		int fib0=0;
-		int fib1=1;
-		int fib2;
-		System.out.println(fib0);
-		System.out.println(fib1);
-		
-		 
+    
+    public static int fibonacci(int n) {
+        // Complete the function.
+     int fib0,fib1,fibn = 0;
+     fib0=0;
+     fib1=1;
+     
+        
+    for (int i=2; i<=n;i++){
+        
+        fibn=fib0+fib1;
+        fib0=fib1;
+        fib1=fibn;
+    }
+        n = fibn;
+        return n;
+      
+    }
+    
 
-	 
-	     
-		for (int i=0;i<=a;i++){
-		fib2=fib0+fib1;
-		fib0=fib1;
-		fib1=fib2;
-		System.out.println(fib2);
-		}
-		
-	}
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.close();
+        System.out.println(fibonacci(n));
+    }
 }

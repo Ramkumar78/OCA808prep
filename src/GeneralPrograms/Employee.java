@@ -1,7 +1,7 @@
 package GeneralPrograms;
 
 
-public class Employee extends Person {
+public class Employee  {
   {
     System.out.println("Employee: First Instance Initialization Block");
   }
@@ -14,7 +14,6 @@ public class Employee extends Person {
   static {
     System.out.println("Employee: Second Static Block");
   }
-  public Employee() {
-    System.out.println("Employee()");
+//  public Employee() {
+//    System.out.println("Employee()");
   }
-}
